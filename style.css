@@ -85,7 +85,7 @@ a:hover {
 }
 
 .nav-top {
-    border-top: 8px solid #0098f1;
+    border-top: 8px solid #ec044a;
 }
 
 .row {
@@ -222,7 +222,7 @@ a:hover {
 .divider {
     width: 40px;
     height: 4px;
-    background: #0098f1;
+    background: #ec044a;
     border-radius: 30px;
     margin: auto;
     margin-top: 8px;
@@ -368,7 +368,8 @@ a:hover {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) .logo {
+@media only screen and (min-width: 768px) {
+    .logo {
     margin: -10px 0px;
 }
 }
