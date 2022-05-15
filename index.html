@@ -10,11 +10,19 @@
     <meta name="description" content="Webgenerateur">
     <meta name="author" content="Hegel Motokoua">
 
-    <link rel="stylesheet" href="style.css?">
+    <link id="light" rel="stylesheet" href="style.css">
+    <link id="dark" rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
     
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
 
+    <style>
+        .non-visible{
+            display: none;
+            transition: all 1s ease-in-out;
+        }
+    </style>
 
 </head>
 
@@ -26,6 +34,8 @@
             <a class="right" style="text-decoration: underline;" href="#"><i class="fas fa-book"></i>&nbsp; Documentation</a>
             <a class="right" href="mailto:hegelmotokoua@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i>&nbsp; hegelmotokoua@gmail.com</a>
             <a class="right" target="_blank" style="font-size: 30px; cursor: pointer;"><i class="fa fa-language"></i></a>
+            <a id="iconButtonMoon" class="right" target="_blank" style="font-size: 25px; cursor: pointer;"><i class="fa fa-moon"></i></a>
+            <a id="iconButtonLight" class="right non-visible" target="_blank" style="font-size: 25px; cursor: pointer;"><i class="fa fa-sun"></i></a>
         </div>
     </div>
 
@@ -261,15 +271,15 @@
                 <h2>Feature C</h2>
                   
                 <p id="featurec1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  
-                 
+                    
+                    
                 <h2>Feature C.1</h2>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit:
                 </p>
                 
-                   <ul>
+                    <ul>
                     <li>
                     <b>Point 1</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     <br>
@@ -277,48 +287,48 @@
                     <b>Point 2</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                     </li>
                     <br id="featurec2">
-                     <li>
+                    <li>
                     <b>Point 3</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     <br>
                 </ul>
-                   
-                 <h2>Feauture C.2</h2>
-                   
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    
+                    <h2>Feauture C.2</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     <br>
                     <br>
-                     <b>Important:</b> Please notice that lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <b>Important:</b> Please notice that lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     <br>
                     <br>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                 </p>
-                  
-                  
-                  <h2>Feature D</h2>
-                  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <br>
-                  <br id="accesibility">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  
-                  
-                <div class="divider" style="width:24%; margin:30px 0;"></div>
-                   
-                   <h1>Accessibility</h1>
-                   
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   <br>
-                   <br>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   <br>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                   
-                   <p>Lorem ipsum dolor sit amet.
-                      <br id="moreinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                   
-                <div class="divider" style="width:24%; margin:30px 0;"></div>
+                    </p>
+                    
+                    
+                    <h2>Feature D</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <br>
+                    <br id="accesibility">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
+                    
+                    <div class="divider" style="width:24%; margin:30px 0;"></div>
+                    
+                    <h1>Accessibility</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet.
+                        <br id="moreinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    
+                    <div class="divider" style="width:24%; margin:30px 0;"></div>
 
                 <h1>More Info</h1>
 
